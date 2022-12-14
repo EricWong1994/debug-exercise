@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "acorn": "^8.8.1"
+  },
+  "scripts": {
+    "postinstall": "patch-package"
   }
 }
