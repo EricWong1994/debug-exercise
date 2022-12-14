@@ -8,6 +8,14 @@
 			"skipFiles": ["<node_internals>/**"],
 			"console": "integratedTerminal",
 			"type": "node"
+		},
+		{
+			"name": "调试 eslint api",
+			"program": "${workspaceFolder}/api-test.js",
+			"request": "launch",
+			"skipFiles": ["<node_internals>/**"],
+			"console": "integratedTerminal",
+			"type": "pwa-node"
 		}
 	]
 }
