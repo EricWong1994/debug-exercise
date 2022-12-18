@@ -1,0 +1,14 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Launch Chrome",
+			"request": "launch",
+			"type": "chrome",
+			// "url": "http://localhost:8080",
+			"url": "http://www.guangtest.com:8080",
+			"userDataDir": "/Users/wangshihao/temp/mydatadir",
+			"webRoot": "${workspaceFolder}"
+		}
+	]
+}

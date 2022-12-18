@@ -1,0 +1,23 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "22debug.js launch",
+			"program": "${workspaceFolder}/22debug.js",
+			"request": "launch",
+			// "args": ["--aaa1", "--aaa2"],
+			"skipFiles": ["<node_internals>/**"],
+			"console": "integratedTerminal",
+			"type": "node"
+		},
+		{
+			"name": "Launch Chrome",
+			"type": "chrome",
+			"request": "launch",
+			// "url": "http://localhost:3000",
+			"url": "http://localhost:5500",
+			"webRoot": "${workspaceFolder}"
+			// "console": "integratedTerminal"
+		}
+	]
+}
